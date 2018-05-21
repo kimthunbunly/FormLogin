@@ -14,6 +14,9 @@ class Login extends Component {
                 <div className="btn-login">
                   <button type="button">Login</button>
                 </div>
+                <div className="sign-in">
+                  <a href=''>Create New Account</a>
+                </div>
           </div>
     );
   }

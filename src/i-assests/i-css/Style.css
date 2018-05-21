@@ -1,8 +1,56 @@
 .Header{background-image: url('../i-image/background.jpg'); width: 100%;height: 100vh;display: block;margin: 0px;padding: 0px;}
-.Header-Text h1{margin: 0px;text-align: center;font-size: 72px;font-family: cursive;color:#F9B233; }
+.header-right{  overflow: hidden; padding: 20px 10px;}
+.header-right a {  float: right;  color: #FFF;  text-align: center;  padding: 12px;  text-decoration: none;  font-size: 18px;  line-height: 25px;}
+.Header-Text h1{margin: 0px;text-align: center;font-size: 72px;font-family: cursive;color:#F9B233; animation-name: bounceIn;animation-duration: 2s;}
 .Header-Text p{text-align: center;font-size: 26px;font-family: fantasy;color: #0FDB70}
 .panel{width:auto;height:auto;background: rgba(135,135,135,0.2);margin: 0px;}
 .panel h3{float: left; margin-left: 33%; font-size: 25px;margin-bottom: 12px; color: #FFF;}
 .panel input{ font-size: 20px;font-family: TimesNewRoman; width: 34%;  height: 7vh;   float: left;   margin-left: 33%;   border-radius: 5.2px;   border-style: none;margin-bottom: 14px;}
-.forget-pass a{ font-size: 14px; color: #FFF; float: left;  margin-left: 33%;}
-.btn-login button{font-size: 20px;font-family:cursive; width: 20%; height: 7vh; float: left; margin-left: 40%; border-radius: 5.2px;  border-style: none;  margin-top: 34px; background-color: #0FBC14}
+.forget-pass a{ font-size: 14px; color: #FFF; float: left;  margin-left: 33%;text-decoration: none;}
+.btn-login button{font-size: 20px;font-family:cursive; width: 20%; height: 7vh; float: left; margin-left: 40%; border-radius: 5.2px;  border-style: none;  margin-top: 34px; background-color: #0FBC14;}
+.sign-in a{ font-size: 14px;color: #FFF; text-align: center; float: left; margin-left: 45%; margin-top: 1%; text-decoration: none;}
+
+@keyframes bounceIn {
+  from,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}

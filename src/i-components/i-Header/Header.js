@@ -6,6 +6,11 @@ class Header extends Component {
   render() {
     return (
           <div className="Header">
+            <div class="header-right">
+                <a class="active" href="#about">About Us</a>
+                <a href="#contact">Contact</a>
+                <a href="#home">Home</a>
+            </div>
             <div className="Header-Text">
               <h1>Easy Buying</h1>
               <p>Please Register for free</p>
