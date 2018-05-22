@@ -1,20 +1,20 @@
 import React, {Component} from 'react';
 import '../../i-assests/i-css/Style.css';
-import Login from '../i-form-login/login';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   render() {
     return (
           <div className="Header">
             <div class="header-right">
-                <a class="active" href="#about">About Us</a>
-                <a href="#contact">Contact</a>
-                <a href="#home">Home</a>
+              <a> <Link to='/u-login'><span>Login</span></Link></a>
+              <a>  <Link to='/'>About</Link></a>
+              <a>  <Link to='/'>Contact</Link></a>
+              <a>  <Link to='/'>Home</Link></a>
             </div>
             <div className="Header-Text">
               <h1>Easy Buying</h1>
               <p>Please Register for free</p>
-              <Login/>
             </div>
           </div>
     );
