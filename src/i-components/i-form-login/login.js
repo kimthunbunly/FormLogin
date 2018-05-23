@@ -7,7 +7,7 @@ class Login extends Component {
     return (
           <div className="row">
               <div className="col-3">
-                <h2>Hi</h2>
+                <br/>
               </div>
               <div className="col-3">
                     <h3>Form Login</h3>
@@ -22,9 +22,6 @@ class Login extends Component {
                     <div className="sign-in">
                       <a href=''><Link to = '/u-signin'>Register New Account Here!</Link> </a>
                     </div>
-                </div>
-                <div className="col-3">
-                  <h2>Hi</h2>
                 </div>
           </div>
     );
