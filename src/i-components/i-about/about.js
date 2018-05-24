@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import '../../i-assests/i-css/Style.css';
+// import '../../i-assests/i-css/animate.css';
 
 class About extends Component {
   render() {

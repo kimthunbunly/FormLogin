@@ -11,6 +11,7 @@ class Signin extends Component {
               <input type="text" name="f-name" id="f-name" placeholder="Firstname"/>
               <input type="text" name="l-name" id="l-name" placeholder="Lastname"/>
               <input type="text" name="email" id="email" placeholder="Email"/>
+              <input type="date" name="dob" id="dob" placeholder="Date of Birth"/>
               <input type="password" name="password" id="password" placeholder="Password"/>
               <input type="password" name="re-password" id="re-password" placeholder="Re-Password"/>
             </div>
