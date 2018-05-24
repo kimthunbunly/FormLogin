@@ -8,7 +8,7 @@ class About extends Component {
           <div className="col-cus"><br/></div>
           <div className="col-cus2">
                 <h1> About US </h1>
-                <p>Instead of following the classic "About Us" script and writing a few paragraphs about the company is mission and origins,
+                <p>Instead of following the classic<b> "About Us"</b> script and writing a few paragraphs about the company is mission and origins,
                   try something different -- there are plenty of ways to make your brand more compelling to someone who does not know about you.
                   Take Moz, for example. A lot has happened since it was founded in 2004, so the company chose to share those milestones using a
                   fun and clean design that incorporates clear headers, concise blurbs, and little graphics to break up the text.

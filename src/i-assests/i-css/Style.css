@@ -1,15 +1,15 @@
 .Header{display: block;margin: 0px;padding: 0px;}
-.header-right{  overflow: hidden; padding: 20px 10px;}
+.header-right{ background-color: rgba(28,28,27,0.2);overflow: hidden; padding: 20px 10px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)}
 .header-right a {  float: right;  color: #FFF;  text-align: center;  padding: 12px;  text-decoration: none;  font-size: 18px;  line-height: 25px;transition: 0.2s linear;}
 .header-right span {color: #009640;font-weight: bold;}
 .Header-Text h1{margin: 0px;text-align: center;font-size: 72px;font-family: cursive;color:#F9B233; animation-name: bounceIn;animation-duration: 2s;}
 .row{ width: 100%; content: "";  display: table;  clear: both;}
 .col-3 {float: left; width: 33%;  padding: 0px;  height: auto;}
 .col-3 h3{font-size: 25px;margin-bottom: 12px; color: #FFF;}
-.col-3 input{ font-size: 20px;font-family: TimesNewRoman; width: 100%;  height: 6vh;   border-radius: 5.2px;   border-style: none; margin-bottom: 14px;}
+.col-3 input{ text-indent: 16px; font-size: 20px;font-family: TimesNewRoman; width: 100%;  height: 6vh;   border-radius: 3px;   border-style: none; margin-bottom: 14px;}
 .col-3 .forget-pass a{ font-size: 14px; color: #FFF; text-decoration: none;}
-.col-3 .btn-login button { float: left;font-size: 20px; font-family: cursive; width: 40%;  height: 6vh; margin-left: 30%;  border-radius: 5.2px;  border-style: none; margin-top: 34px; margin-bottom: 3%;background-color: #0FBC14;}
-.col-3 .sign-in a{ font-size: 14px;color: #FFF; text-align: left; margin-top: 1%; text-decoration: none; margin-left: 18%;}
+.col-3 .btn-login button { float: left;font-size: 20px; font-family: cursive; width: 40%; color: #FFF; height: 6vh; margin-left: 30%;  border-radius: 3px;  border-style: none; margin-top: 34px; margin-bottom: 3%;background-color: #0FBC14;}
+.col-3 .sign-in a { font-size: 14px;color: #FFF; margin-top: 1%; text-decoration: none; margin-left: 36%;}
 
 @keyframes bounceIn {
   from,
@@ -58,44 +58,50 @@
 
 .col-2 {float: left; width: 50%;  padding: 0px;  height: auto;}
 .col-2 h3{font-size: 25px;margin-bottom: 12px; color: #FFF;margin-left: 20%;text-transform: uppercase;}
-.col-2 input{ font-size: 20px;font-family: TimesNewRoman; height: 5.5vh;   border-radius: 5.2px;   border-style: none; margin-bottom: 16px;}
+.col-2 input{text-indent: 16px; font-size: 20px;font-family: TimesNewRoman; height: 5.5vh;   border-radius: 3px;   border-style: none; margin-bottom: 16px;}
 .col-2 #f-name,#password{margin-left: 20%;width: 35%;}
 .col-2 #l-name,#re-password{margin-left: 5%;width: 35%;}
 .col-2 #email{margin-left: 20%;width: 75%;}
 .col-2 h2{font-size: 25px;margin-bottom: 12px; color: #FFF;margin-left: 10%;text-transform: uppercase;}
 .col-2 #st-number,#country,#religion{margin-left: 10%;width: 35%;}
 .col-2 #st-name,#city,#postcode{margin-left: 5%;width: 35%;}
-.btn .btn-login button {font-size: 20px; font-family: cursive; width: 20%;  height: 6vh; margin-left: 40%;  border-radius: 5.2px;  border-style: none; margin-top: 34px; margin-bottom: 1%;background-color: #0FBC14;}
-.btn .sign-in a{ font-size: 14px;color: #FFF; text-align: left; text-decoration: none; margin-left: 23%;}
+.btn .btn-login button {font-size: 20px; font-family: cursive; width: 20%;color: #FFF;  height: 6vh; margin-left: 40%;  border-radius: 3px;  border-style: none; margin-top: 34px; margin-bottom: 1%;background-color: #0FBC14;}
+.btn .sign-in a{ font-size: 14px;color: #FFF; text-align: left; text-decoration: none; margin-left: 45.5%;}
 /*
 .event-btn{width: 100%; content: "";  display: table;  clear: both}
 .btn-both {float: left; width: 50%;  padding: 0px;  height: auto;}
-.btn-both #btn-login{float: right;;font-size: 20px; font-family: cursive; width: 20%;  height: 6vh; margin-right: 2%;  border-radius: 5.2px;  border-style: none; margin-top: 34px; margin-bottom: 3%;background-color: #DADAD9;}
-.btn-both #btn-register{float: left;font-size: 20px; font-family: cursive; width: 25%;  height: 6vh; margin-left: 2%;  border-radius: 5.2px;  border-style: none; margin-top: 34px; margin-bottom: 3%;background-color: #0FBC14;} */
+.btn-both #btn-login{float: right;;font-size: 20px; font-family: cursive; width: 20%;  height: 6vh; margin-right: 2%;  border-radius: 3px;  border-style: none; margin-top: 34px; margin-bottom: 3%;background-color: #DADAD9;}
+.btn-both #btn-register{float: left;font-size: 20px; font-family: cursive; width: 25%;  height: 6vh; margin-left: 2%;  border-radius: 3px;  border-style: none; margin-top: 34px; margin-bottom: 3%;background-color: #0FBC14;} */
 
 .header-right a:hover{background-color: #FFF; color: #009640;border-radius:2.5px;transition: 0.5s linear;}
-.row input{  border: none;  background: transparent;  border-bottom: 1px solid #FFF;  outline: none; color:#FFF;}
+.row input{ text-indent: 16px; border: none;  background: transparent;  border-bottom: 1px solid #FFF;  outline: none; color:#FFF;}
 ::-webkit-input-placeholder { color: #009640;}
-.row input:focus{ border: none;  background-color: rgba(256, 256, 256, 0.05 ); border-bottom: 2px solid green;  outline: none;}
+.row input:focus{ border: none;  background-color: rgba(256, 256, 256, 0.05 ); border-bottom: 2px solid green;  outline: none; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 .wel{width: 100%; display: table;  clear: both;}
-.wel p{text-align: center;font-size: 26px;font-family: fantasy;color: #0FDB70}
+.wel p{text-align: center;font-size: 26px;font-family: arial;color: #0FDB70}
 .wel .wel-title h1{margin: 0px;text-align: center;font-size: 80px;font-family: KabarettD;color:#2EAC66; animation-name: ;animation-duration: 2s;}
 .wel .wel-icon {float: left; width: 20%;  padding: 0px;  height: auto;}
-.wel .wel-icon img {width: 100%;  padding: 0px;  height: auto;}
+.wel .wel-icon img {width: 100%;  padding: 0px;  height: auto;transition: 0.2s linear;}
 .wel .wel-icon p {text-align: center; font-size: 16px; font-family: cursive;color: #FFF;}
 
 .col-3 .col-con{ margin: 0px;padding: 0px;}
-.col-3 img{width: 70%;}
+.col-3 img{width: 70%;transition: 0.2s linear;}
 .col-con h1 {text-align:left ;color: #FFF;font-size: 26px;}
 .col-con p {color: #C6C6C5;font-size: 18px;margin-left: 8%; }
 .col-con span {color: #FFF;margin-left: 10%; font-size: 16px;}
-.col-con textarea{font-size: 20px; font-family: TimesNewRoman; width: 100%;  height: 10vh;   border-radius: 5.2px; background: none;color: #FFF;}
-.col-con button{width: 20%;    height: 4vh;    border-radius: 5.5px; margin-top: 3%;font-family:arial; border-style: none;background-color: #0FBC14; color: #FFF;}
+.col-con textarea{text-indent: 16px; font-size: 20px; font-family: TimesNewRoman; width: 100%;  height: 10vh;   border-radius: 3px; background: none;color: #FFF;}
+.col-con button{width: 20%;font-size: 18px;height: 4vh; border-radius: 5.5px; margin-top: 3%;font-family:arial; border-style: none;background-color: #0FBC14; color: #FFF;}
 .col-con h2 {    color: #FFF;    font-size: 12px;}
 
 .col-cus {float: left; width: 30%;  padding: 0px;  height: auto;}
 .col-cus2 {float: left; width: 40%;  padding: 0px;  height: auto;}
 .col-cus2 h1{ text-align: left; color: #FFF;font-size: 26px;}
-.col-cus2 p{ text-align: justify; text-align-last:left; color: #ECECEC;line-height: 4vh; }
+.col-cus2 p{ text-align: justify; text-align-last:left; color: #ECECEC; line-height: 4vh; }
 .col-cus2 .border-line {margin-top: 20%;}
-.col-cus2 .border-line p{border-top: 1px solid #FFF;}
+.col-cus2 .border-line p{border-top: 1px solid #FFF; color: #0FBC14; }
+button,input{transition: 0.2s linear;}
+input:hover{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);transition: 0.2s linear}
+button:hover{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);transition: 0.2s linear; transform: scale(1.02);}
+img:hover{transform: scale(1.1);transition: 0.2s linear;}
+
+.formErrors{color: red; text-transform: capitalize}

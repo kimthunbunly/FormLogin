@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../../i-assests/i-css/Style.css';
 import logo from '../../i-assests/i-image/i-Mac.svg';
+import { Link } from 'react-router-dom';
 
 class Signin extends Component {
   render() {
@@ -13,7 +14,7 @@ class Signin extends Component {
         <div className="wel-icon"><br/></div>
         <div className="wel-icon"><br/></div>
         <div className="wel-icon">
-          <img src={logo}/>
+          <Link to='/u-login'><img src={logo}/></Link>
           <p>Copyright © 2018 by Developer Banly</p>
         </div>
       </div>

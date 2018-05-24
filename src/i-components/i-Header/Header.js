@@ -6,11 +6,11 @@ class Header extends Component {
   render() {
     return (
           <div className="Header">
-            <div class="header-right">
-              <a>  <Link to='/u-login'><span>Login</span></Link></a>
-              <a>  <Link to='/u-about'>About</Link></a>
-              <a>  <Link to='/u-contact'>Contact</Link></a>
-              <a>  <Link to='/u-welcome'>Home</Link></a>
+            <div className="header-right">
+              <Link to='/u-login'><span>Login</span></Link>
+              <Link to='/u-about'>About</Link>
+              <Link to='/u-contact'>Contact</Link>
+              <Link to='/u-welcome'>Home</Link>
             </div>
             <div className="Header-Text">
               <h1>Easy Buying</h1>
